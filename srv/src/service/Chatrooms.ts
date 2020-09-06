@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
 import { Chatroom } from './Chatroom';
-import { Room } from '../models/room';
+import { Room } from '../models/Room';
 
 export class Chatrooms {
     chatrooms: Record<string, Chatroom> = {};
@@ -14,7 +14,7 @@ export class Chatrooms {
         return chatroom;
     }
 
-    getChatroom(id: string) {
+    getChatroom(id: string): Chatroom | undefined {
         return this.chatrooms[id];
     }
 }

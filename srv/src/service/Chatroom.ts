@@ -1,5 +1,5 @@
 import WebSocket from 'ws';
-import { Room } from "../models/room";
+import { Room } from "../models/Room";
 
 export class Chatroom {
     public websockets: Record<string, WebSocket> = {};
@@ -12,12 +12,5 @@ export class Chatroom {
 
     disconnect(userId: string) {
         delete this.websockets[userId];
-    }
-
-    broadcast(userId: string, message: string) {
-        const user = this.room.getUser(userId);
-        for (const ws of Object.values(this.websockets)) {
-            ws.send(JSON.stringify({ user, message }));
-        }
     }
 }

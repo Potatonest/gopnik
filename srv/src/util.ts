@@ -1,0 +1,1 @@
+export const assertNever = (v: never) => console.error('Unexpected', v);
