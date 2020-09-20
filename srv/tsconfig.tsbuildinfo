@@ -431,44 +431,44 @@
         "signature": "8f6844399108503b4c0806cfd479711aec7861fd545db1fae17da89a7c37d84e",
         "affectsGlobalScope": false
       },
-      "./src/models/User.ts": {
-        "version": "87d06f318f0d37cef4c4ce86b58b13d44d9fdc1126c896a00650fe3e89e96186",
-        "signature": "87d06f318f0d37cef4c4ce86b58b13d44d9fdc1126c896a00650fe3e89e96186",
+      "./src/models/user.ts": {
+        "version": "75a7819413f476edc014fe28a21902917934f85f435c1933cd3c3fb5bacfd0a5",
+        "signature": "75a7819413f476edc014fe28a21902917934f85f435c1933cd3c3fb5bacfd0a5",
         "affectsGlobalScope": false
       },
-      "./src/models/Room.ts": {
-        "version": "0080fc2e33555ca3a991c9e870267c621cf675f5a4e87ecc40a2b88091c1df28",
-        "signature": "fac80bda3e8e60a37231bc32899257e72df30f5fb81fc1c8d01c5ca5c9dd0985",
+      "./src/models/room.ts": {
+        "version": "cf677c3b96929ecb9a127b85b132b793b1525ca6a545109aee4a3865b04a5344",
+        "signature": "75afb7cb814ee0b2a7c1755908eb1e5dfe93eb68a911580b7d80957bba6def0c",
         "affectsGlobalScope": false
       },
-      "./src/service/Chatroom.ts": {
-        "version": "ba881cc44c8401ec7a1522b7b35b95129703b67e7f635b1204ad2e56a13156cc",
-        "signature": "853b45821cfab40cbac280818e86e8ac575f0ac52351245c71b1883b3ee2fe76",
+      "./src/service/chatroom.ts": {
+        "version": "e97831d78170ed538ad15d090527e0cf7f28b16377b91d418f70eeed7db0d0c9",
+        "signature": "400abe70a6e8717897df31ddffed5cbe16059addf510041675be3da2bda8291e",
         "affectsGlobalScope": false
       },
-      "./src/service/Chatrooms.ts": {
-        "version": "30ac1bd5672d388dc8ccc2db07299851da555c69671f4b666ba6f48c3b247785",
-        "signature": "cd7d63c74a6d3410fe4aa68fcc2e3862b98830438e17245035ab95c80776a1eb",
+      "./src/service/chatrooms.ts": {
+        "version": "7cb881817e94e87823ed5f71e124f1dde05fa20c2ef027b77ed83e6ff471d71c",
+        "signature": "34299329a7b1b64cd2691063272b4fb4ad3bf91e2267bf4b07c04d8edd03eeb0",
         "affectsGlobalScope": false
       },
       "./src/util.ts": {
         "version": "f37d0e0e99f3a1f005f67cf25a8e47beccd71d35a99f33241f6e9ec1e2a2b102",
-        "signature": "5777968276b0de0aff721c18959ebf063b5212f038eee5aa5fc83cf8d4711a26",
+        "signature": "9f6d55d0ef5151ed5513f2e6ffd1001b94cddb4298efe57283bc95c47199c010",
         "affectsGlobalScope": false
       },
       "./src/request.d.ts": {
-        "version": "a9bddde7ab6ab58847ae762efd42a3b72428f7e079a07b87d04681f7dd03fd9f",
-        "signature": "a9bddde7ab6ab58847ae762efd42a3b72428f7e079a07b87d04681f7dd03fd9f",
+        "version": "4690f19a877fa5b0c233344287f8736ceb881d226bc0c1db19fde822342fd7a5",
+        "signature": "4690f19a877fa5b0c233344287f8736ceb881d226bc0c1db19fde822342fd7a5",
         "affectsGlobalScope": false
       },
       "./src/controllers/room.ts": {
-        "version": "be7ed4e8a92f28a8d2c6bbc968857185356ac6627e1703d051c1c6a28102ce37",
-        "signature": "b4a27d31d6ec1fa280f299e27f33d83778f06a6f3de614d4132f9817b74bde4c",
+        "version": "096d4c2feb2b887abfbbbc5e33f05f233eb143cf8da1ac89418840826ab160a9",
+        "signature": "224b3271cb8c775b210204440d1955633a522c1c9cc7e2919524d8fd1a0fd813",
         "affectsGlobalScope": false
       },
       "./src/app.ts": {
-        "version": "3fbf75ffdadaf807cd9d6bbec5a38b73b64a007d311ccc7b8ba18f1362dd697e",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "version": "5b8f8237e0004076fd6aa11464b5b229c08c7b58f4351399b6b515a8f8e1b341",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/connect/index.d.ts": {
@@ -1456,20 +1456,20 @@
         "./node_modules/@types/ws/index.d.ts",
         "./node_modules/nanoid/index.d.ts",
         "./src/request.d.ts",
-        "./src/service/Chatroom.ts",
-        "./src/service/Chatrooms.ts",
+        "./src/service/chatroom.ts",
+        "./src/service/chatrooms.ts",
         "./src/util.ts"
       ],
-      "./src/models/Room.ts": [
+      "./src/models/room.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./src/models/User.ts"
+        "./src/models/user.ts"
       ],
-      "./src/models/User.ts": [
+      "./src/models/user.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -1484,9 +1484,9 @@
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./src/models/User.ts"
+        "./src/models/user.ts"
       ],
-      "./src/service/Chatroom.ts": [
+      "./src/service/chatroom.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -1494,9 +1494,9 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/@types/ws/index.d.ts",
-        "./src/models/Room.ts"
+        "./src/models/room.ts"
       ],
-      "./src/service/Chatrooms.ts": [
+      "./src/service/chatrooms.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/process.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
@@ -1504,8 +1504,8 @@
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
         "./node_modules/nanoid/index.d.ts",
-        "./src/models/Room.ts",
-        "./src/service/Chatroom.ts"
+        "./src/models/room.ts",
+        "./src/service/chatroom.ts"
       ],
       "./src/util.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -2407,8 +2407,8 @@
       "./src/controllers/room.ts": [
         "./node_modules/@types/ws/index.d.ts"
       ],
-      "./src/models/Room.ts": [
-        "./src/models/User.ts"
+      "./src/models/room.ts": [
+        "./src/models/user.ts"
       ],
       "./src/request.d.ts": [
         "./node_modules/@types/node/ts3.1/fs.d.ts",
@@ -2417,14 +2417,14 @@
         "./node_modules/@types/node/ts3.4/fs.d.ts",
         "./node_modules/@types/node/ts3.4/process.d.ts",
         "./node_modules/@types/node/ts3.4/util.d.ts",
-        "./src/models/User.ts"
+        "./src/models/user.ts"
       ],
-      "./src/service/Chatroom.ts": [
+      "./src/service/chatroom.ts": [
         "./node_modules/@types/ws/index.d.ts",
-        "./src/models/Room.ts"
+        "./src/models/room.ts"
       ],
-      "./src/service/Chatrooms.ts": [
-        "./src/service/Chatroom.ts"
+      "./src/service/chatrooms.ts": [
+        "./src/service/chatroom.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -2526,11 +2526,11 @@
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "./src/app.ts",
       "./src/controllers/room.ts",
-      "./src/models/Room.ts",
-      "./src/models/User.ts",
+      "./src/models/room.ts",
+      "./src/models/user.ts",
       "./src/request.d.ts",
-      "./src/service/Chatroom.ts",
-      "./src/service/Chatrooms.ts",
+      "./src/service/chatroom.ts",
+      "./src/service/chatrooms.ts",
       "./src/util.ts"
     ]
   },

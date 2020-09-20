@@ -14,7 +14,7 @@ class RoomController {
   protected connectedChatrooms: Map<string, Chatroom> = new Map();
 
   constructor(public ws: Websocket, public userId: string) {
-    this.init()
+    this.init();
   }
 
   init() {
@@ -52,7 +52,7 @@ class RoomController {
   }
 
   message(request: RoomApi.MessageRequest) {
-    const chatroom = this.connectedChatrooms.get(request.chatroomId);
+    const chatroom = chatrooms.getChatroom(request.chatroomId);
     if (chatroom) {
       const user = chatroom.room.getUser(this.userId);
       const message: RoomApi.MessageResponse = {
@@ -123,7 +123,7 @@ export const room = (ws: Websocket) => {
     console.log("User:", controller.userId, "disconnected");
   });
 
-  ws.addEventListener("message", (e) => {
+  ws.addEventListener("message", (e:any) => {
     try {
       controller.handleRequest(JSON.parse(e.data));
     } catch (e) {
